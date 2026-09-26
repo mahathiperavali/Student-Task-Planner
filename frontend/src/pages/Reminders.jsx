@@ -10,7 +10,7 @@ function Reminders({ reminders, setReminders }) {
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState('')
 
-  const API_URL = 'http://localhost:5000/api/reminders'
+  const API_URL = 'https://student-task-planner-vwe5.onrender.com/api/reminders'
 
   function getHeaders() {
     const token = localStorage.getItem('token')

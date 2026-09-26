@@ -122,7 +122,7 @@ function Calendar({ tasks, events, setEvents }) {
     getWeekDates(selectedDate)
 
   const API_URL =
-    'http://localhost:5000/api/events'
+    'https://student-task-planner-vwe5.onrender.com/api/events'
 
   function getHeaders() {
     const token =

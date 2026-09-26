@@ -43,7 +43,7 @@ function App() {
     async function loadTasks() {
       try {
         const response = await fetch(
-          'http://localhost:5000/api/tasks',
+          'https://student-task-planner-vwe5.onrender.com/api/tasks',
           {
             headers: {
               Authorization: `Bearer ${token}`,
@@ -85,7 +85,7 @@ function App() {
     async function loadEvents() {
       try {
         const response = await fetch(
-          'http://localhost:5000/api/events',
+          'https://student-task-planner-vwe5.onrender.com/api/events',
           {
             headers: {
               Authorization: `Bearer ${token}`,
@@ -127,7 +127,7 @@ function App() {
     async function loadReminders() {
       try {
         const response = await fetch(
-          'http://localhost:5000/api/reminders',
+          'https://student-task-planner-vwe5.onrender.com/api/reminders',
           {
             headers: {
               Authorization: `Bearer ${token}`,

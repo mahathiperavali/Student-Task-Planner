@@ -15,7 +15,7 @@ function Tasks({ tasks, setTasks }) {
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState('')
 
-  const API_URL = 'http://localhost:5000/api/tasks'
+  const API_URL = 'https://student-task-planner-vwe5.onrender.com/api/tasks'
 
   function getHeaders() {
     return {
